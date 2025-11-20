@@ -14,7 +14,7 @@
                     0
                 </span>
                 <div class="current-slide-number-inner">
-                    {{#foreach posts}}
+                    {{#foreach pages}}
                         <span class="medium-text bigger-font">
                             {{@number}}
                         </span>
@@ -28,7 +28,7 @@
             </div>
             <div class="slider-navigation-total-slides">
                 <div class="medium-text bigger-font">
-                    0{{posts.length}}
+                    0{{pages.length}}
                 </div>
             </div>
         </div>
@@ -58,12 +58,12 @@
         </button>
 
         <div class="slider-wrapper">
-            {{#foreach posts}}
+            {{#foreach pages}}
                 <div 
                     class="slide background-media"
                     role="group"
                     aria-roledescription="Slide"
-                    aria-label="{{@number}} of {{posts.length}}"
+                    aria-label="{{@number}} of {{pages.length}}"
                     data-slide-number="{{@number}}"
                     data-slug="{{slug}}"
                 >
