@@ -449,6 +449,7 @@
 .google-form-radio {
     width: clamp(20px, calc(1.39vw * var(--scale)), 24px);
     height: clamp(20px, calc(1.39vw * var(--scale)), 24px);
+    padding: 0;
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: 50%;
     appearance: none;
@@ -507,6 +508,7 @@
 .google-form-checkbox {
     width: clamp(20px, calc(1.39vw * var(--scale)), 24px);
     height: clamp(20px, calc(1.39vw * var(--scale)), 24px);
+    padding: 0;
     border: 2px solid rgba(0, 0, 0, 0.3);
     border-radius: clamp(4px, calc(0.28vw * var(--scale)), 6px);
     appearance: none;
